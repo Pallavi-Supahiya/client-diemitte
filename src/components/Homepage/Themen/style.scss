@@ -1,0 +1,66 @@
+@import "../../../styles//utilities/utilities";
+
+.themen-container {
+  padding-left: 80px;
+  background: #fff;
+  padding-top: 128px;
+  overflow-x: hidden;
+}
+h3 {
+  margin: 0;
+}
+.themen-content-division {
+  justify-content: flex-end;
+  display: flex;
+}
+.themen-content-container {
+    position: relative;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  min-width: 454px !important;
+  min-height: 562px;
+  box-shadow: 0px 0px 25px 25px rgb(247 247 249);
+}
+.full-content-container {
+  padding: 52px 48px 31px 48px;
+}
+.line {
+  color: $secondary-color;
+  width: 375px;
+  height: 175px;
+  margin: 0;
+  margin-bottom: 48px;
+}
+.date {
+  color: $primary-color;
+  font-size: 16px;
+  line-height: 19.2px;
+}
+.name {
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: 800;
+  color: black;
+  padding-bottom: 2px;
+  margin: 0;
+}
+.company{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    margin: 0;
+    color:rgba(0, 0, 0, 0.6);
+}
+.full-lower-content{
+    position: absolute;
+    bottom: 32px;
+}
+.lower-content{
+    display: flex;
+    align-items: center;
+
+}
+.about-author{
+    width: 253px;
+    margin-left: 24px;
+}

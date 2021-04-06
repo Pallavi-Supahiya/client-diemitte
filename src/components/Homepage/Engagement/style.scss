@@ -1,0 +1,25 @@
+@import "../../../styles//utilities/utilities";
+
+
+.engagement-container{
+    background-color: #fff;
+    padding-top: 128px;
+
+}
+.engagement-heading{
+    padding-left: 80px;
+}
+.buttons-container{
+    display: flex;
+    padding: 128px 80px;
+    background: $secondary-color;
+    overflow-x: hidden;
+}
+.engagement-content-division{
+    margin-right: 40px;
+}
+.button-engagement{
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 800;
+}

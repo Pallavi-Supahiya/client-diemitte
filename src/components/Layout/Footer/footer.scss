@@ -1,0 +1,62 @@
+@import "../../../styles/utilities/utilities";
+
+
+
+.footer-container{
+    background: #F0F3F6;
+    padding: 128px 80px 64px 80px;
+}
+
+.upper-footer{
+    display:flex;
+}
+.list-links{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+.heading{
+    color:$primary-color;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 40px;
+    letter-spacing: 1%;
+}
+.links{
+    width: 500px;
+}
+.footer-link{
+    text-decoration: none;
+    text-decoration: none;
+    color:$primary-color;
+
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 800;
+    padding-top: 28px;
+    letter-spacing: 1%;
+}
+.map{
+    padding: 0px;
+}
+.social-media{
+    width: 500px;
+}
+.image-icons{
+    padding-right: 5px;
+}
+.lower-footer{
+    display: flex;
+}
+h5{
+    font-family: "Modern Era";
+    padding-right: 40px;
+    color:$primary-color;
+    font-size: 16px;
+    line-height: 23.2px;
+    font-weight: 800;
+    letter-spacing: 1%;
+}

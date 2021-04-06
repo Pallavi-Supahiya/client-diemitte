@@ -1,0 +1,22 @@
+export const data=[
+    {
+        id:"1.1",
+        title:"Newsletter",
+        link:"/",
+    },
+    {
+        id:"1.2",
+        title:"Stellen",
+        link:"/",
+    },
+    {
+        id:"1.3",
+        title:"Kontakt",
+        link:"/",
+    },
+    {
+        id:"1.4",
+        title:"Medienr",
+        link:"/",
+    },
+]

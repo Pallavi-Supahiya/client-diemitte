@@ -1,0 +1,54 @@
+@import "../../../styles/utilities/utilities";
+
+
+.parolen-container{
+    padding-left: 80px;
+    padding-top: 128px;
+    padding-bottom: 8px;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+.content-division{
+    display: flex;
+}
+.content-container{
+    margin-right: 40px;
+    min-width: 900px  !important;
+    background: #003C69;
+    margin-right: 40px;
+    padding-left: 80px;
+    padding-top: 64px;
+    padding-bottom: 174px;
+
+  
+}
+.content-container:hover{
+   
+        border-radius: 16px;
+        transform: translatey(-10px);
+    
+}
+.heading-p{
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+    margin: 0px;
+    padding-bottom: 40px;
+}
+.line1{
+    color: #FF9B00;
+    max-width: 790px;
+    margin: 0;
+    height: 320px;
+    margin: 0;
+}
+.line2{
+    color: #FF9B00;
+}
+.span-content{
+    font-weight: 400;
+}
+h3{
+    color: $primary-color;
+    padding-bottom: 64px;
+}
