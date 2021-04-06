@@ -5,11 +5,14 @@
     padding-top: 128px;
     padding-bottom: 128px;
     background: #fff;
-    padding-left: 80px;
+    
+  
 }
 
 .twitter-content-division{
     display: flex;
+    justify-content: flex-end;
+   
 }
 .twitter-content-container{
     max-width: 454px;

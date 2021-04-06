@@ -13,22 +13,23 @@ const Verpassen = () => {
           <div className="verpassen-content-container">
             <div className="table-heading">
               <tr>
-                <td>Anlass</td>
-                <td>Datum</td>
-                <td>Ort</td>
+                <td className="table-head-name">Anlass</td>
+                <td className="table-head-date">Datum</td>
+                <td className="table-head-ort">Ort</td>
               </tr>
+            
               {data.map((item, index) => {
                 return (
                   <div className="data-table">
                     <tr>
-                      <td>{item.anlass}</td>
-                      <td>{item.datum}</td>
-                      <td>{item.ort}</td>
+                      <td className="name-div">{item.anlass}</td>
+                      <td className="date-div">{item.datum}</td>
+                      <td className="ort-div">{item.ort}</td>
                     </tr>
                   </div>
                 )
               })}
-            </div>
+             </div>
           </div>
         </div>
       </div>

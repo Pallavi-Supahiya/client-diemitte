@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 export const Button = styled(Link)`
   background: ${({ primary }) => (primary ? "#FF9B00" : "#FF9B00")};
   white-space: nowrap;
-  padding: ${({ big }) => (big ? "16px 32px" : "40px 64px")};
+  padding: ${({ big }) => (big ? "11px 32px" : "40px 64px")};
   color: ${({ secondary }) => (secondary ? "#003C69" : "#FFF")};
   font-size: ${({ big }) => (big ? "20px" : "64px")};
   line-height:  ${({ big }) => (big ? "20px" : "64px")};

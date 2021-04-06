@@ -2,6 +2,50 @@
 
 .verpassen-container{
     padding-top: 128px;
-    padding-left: 80px;
+   
     background: #fff;
+    color: $primary-color;
+}
+.verpassen-content-container{
+  
+        display: flex;
+        justify-content: center;
+    
+}
+td{
+    border-bottom: 1px solid#EBF0F3;
+}
+.table-head-name{
+    padding-left: 40px;
+    padding-bottom: 17px;
+    min-width: 500px;
+    font-size: 16px;
+    line-height: 17.6px;
+    font-weight: 400;
+    color: $primary-color;
+    
+}
+.table-head-date, .table-head-ort{
+    min-width: 200px;
+    padding-bottom: 17px;
+    font-size: 16px;
+    line-height: 17.6px;
+    font-weight: 400;
+    color: $primary-color;
+    
+}
+.name-div{
+    padding-top:60px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+  min-width: 500px;
+  font-size: 24px;
+  line-height: 26.4px;
+  font-weight: 800;
+}
+.date-div, .ort-div{
+    min-width: 200px;
+    font-size: 24px;
+    line-height: 26.4px;
+    font-weight: 800;
 }

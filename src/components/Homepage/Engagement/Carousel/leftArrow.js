@@ -1,14 +1,15 @@
 import React from "react"
 import leftArrow from "../../../../assets/images/Left Arrow.svg"
+import {firstclick} from "./tmp"
 
-function LeftArrow({ style, onClick }) {
+function LeftArrow({ style, onClick, visible }) {
   return (
     <div
       className="team-left-arrow"
       style={{
         ...style,
         position: "absolute",
-      top: "45%",
+        top: "-17px",
       left: "2%",
        
         width: "63px",
@@ -18,10 +19,10 @@ function LeftArrow({ style, onClick }) {
         zIndex: "10",
      
       }}
-      onClick={onClick}
+    onClick={onClick}
     >
       <img
-        src={leftArrow}
+        src={firstclick ? leftArrow : null}
        
       />
     </div>

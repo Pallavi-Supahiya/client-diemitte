@@ -1,17 +1,18 @@
 @import "../../../styles//utilities/utilities";
 
 .themen-container {
-  padding-left: 80px;
+  
   background: #fff;
   padding-top: 128px;
-  overflow-x: hidden;
+  
 }
 h3 {
   margin: 0;
 }
 .themen-content-division {
-  justify-content: flex-end;
+ 
   display: flex;
+  justify-content: flex-end;
 }
 .themen-content-container {
     position: relative;

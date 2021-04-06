@@ -14,10 +14,10 @@ const IndexPage = () => (
     <Hero />
     <Parolen />
     <Themen />
-    <Werte />
+    {/* <Werte />
     <Verpassen />
     <Engagement/>
-    <Twitterfeed />
+    <Twitterfeed /> */}
     
   </Layout>
 )

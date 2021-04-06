@@ -7,7 +7,7 @@ import "./hero.scss"
 const index = () => {
     return (
         <div className="hero">
-            <div className="container">
+            
                 <div className="images-division">
                
                <img src={Banner} alt="banner" className="banner-division" />
@@ -16,7 +16,7 @@ const index = () => {
                    <img src={Logo} alt="logo"className="logo-div"/>
              
                </div>
-            </div>
+            
             
         </div>
     )

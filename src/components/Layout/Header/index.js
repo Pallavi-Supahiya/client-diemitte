@@ -19,7 +19,7 @@ const index = () => {
           <div className="search-div">
               <div className="search-icon">
                   <img src={Search} alt="icon" />
-                  <p>Suche</p>
+                  <p className="searchtext">Suche</p>
               </div>
               <div className="drop-down">
                   

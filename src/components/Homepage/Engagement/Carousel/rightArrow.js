@@ -1,16 +1,17 @@
 import React from "react"
 import rightArrow from "../../../../assets/images/Right Arrow.svg"
+import {firstclick} from "./tmp"
 
 
-function RightArrow({ style, onClick }) {
+function RightArrow({  onClick }) {
   return (
     <div
       className="team-right-arrow"
       style={{
        
         position: "absolute",
-        top:"45%",
-        right:"5%",
+        top: "-17px",
+                right:"2%",
        
         
         width: "63px",
@@ -20,7 +21,7 @@ function RightArrow({ style, onClick }) {
         zIndex: "10",
         
       }}
-      onClick={onClick}
+      onClick={()=>{onClick(); firstclick=true;}}
     >
       <img
         src={rightArrow}

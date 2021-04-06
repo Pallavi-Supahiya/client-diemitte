@@ -1,20 +1,23 @@
 import React from "react"
 import Slider from "react-slick"
-import { Button } from "../../../Button"
+
 import RightArrow from "./rightArrow"
 import LeftArrow from "./leftArrow"
-import "../parolen.scss"
+import { Button } from "../../../Button"
+//import "../parolen.scss"
 
 import "./style.scss"
+import "../style.scss"
 
 //  settings for slick carousel
 var settings = {
-  dots: true,
+  dots: false,
   infinite: false,
   speed: 500,
-  slidesToShow: 1.3,
+  slidesToShow: 1.5,
   slidesToScroll: 1,
-centerPadding: "50px",
+  centerMode: true,
+  centerPadding: "25%",
   nextArrow: <RightArrow />,
   prevArrow: <LeftArrow />,
   responsive: [
@@ -42,26 +45,10 @@ function CardCarousel({ data }) {
     >
       {data.map((item, index) => {
         return (
-          <div className="content-container" key={`${"card" + index}`}>
-            <div className="about-parolen-container">
-              <p className="heading-p">{item.heading}</p>
-              <h1 className="line1">{item.line1}</h1>
-              <div className="line2-div">
-                <h1 className="line2">
-                  {item.line2}
-                  <span className="span-content">{item.content}</span>
-                </h1>
-              </div>
-            </div>
-            <Button
-              className="button"
-              primary="true"
-              big="true"
-              secondary="true"
-            >
-              {item.button}
-            </Button>
-          </div>
+          <div className="engagement-content-division" >
+          <Button className="button-engagement" primary="true"  border="true" >{item.button}</Button>
+
+      </div>
         )
       })}
     </Slider>

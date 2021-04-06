@@ -1,20 +1,22 @@
 import React from "react"
 import Slider from "react-slick"
-import { Button } from "../../../Button"
+import twitterlogo from "../../../../assets/images/small-twitter.svg"
 import RightArrow from "./rightArrow"
 import LeftArrow from "./leftArrow"
-import "../parolen.scss"
+//import "../parolen.scss"
 
 import "./style.scss"
+import "../style.scss"
 
 //  settings for slick carousel
 var settings = {
   dots: true,
-  infinite: false,
+  infinite: true,
   speed: 500,
-  slidesToShow: 1.3,
+  slidesToShow: 1.5,
   slidesToScroll: 1,
-centerPadding: "50px",
+  centerMode: true,
+  centerPadding: "25%",
   nextArrow: <RightArrow />,
   prevArrow: <LeftArrow />,
   responsive: [
@@ -42,25 +44,20 @@ function CardCarousel({ data }) {
     >
       {data.map((item, index) => {
         return (
-          <div className="content-container" key={`${"card" + index}`}>
-            <div className="about-parolen-container">
-              <p className="heading-p">{item.heading}</p>
-              <h1 className="line1">{item.line1}</h1>
-              <div className="line2-div">
-                <h1 className="line2">
-                  {item.line2}
-                  <span className="span-content">{item.content}</span>
-                </h1>
+          <div className="twitter-content-container">
+          <div className="upper-twitter-content">
+              <div className="name-content">
+                  <h5 className="name-twitter">{item.name}</h5>
+                  <h5 className="username-twitter">{item.username}</h5>
+                  </div>
+                  <div className="icon-content">
+                      <img className="twitter-logo" src={twitterlogo} alt="logo" />
+                      </div>
+
               </div>
-            </div>
-            <Button
-              className="button"
-              primary="true"
-              big="true"
-              secondary="true"
-            >
-              {item.button}
-            </Button>
+              <div className="lower-twitter-content">
+                  <p className="content-twitter">{item.tweet}<br></br><span className="twitter-span">{item.tags}</span></p>
+                  </div>
           </div>
         )
       })}

@@ -2,29 +2,43 @@
 
 
 .parolen-container{
-    padding-left: 80px;
+    padding-left: 0px;
     padding-top: 128px;
     padding-bottom: 8px;
-    overflow-x: hidden;
+    
     background-color: #fff;
 }
 .content-division{
     display: flex;
 }
+.slick-list{
+
+}
 .content-container{
     margin-right: 40px;
-    min-width: 900px  !important;
+    max-width: 72vw ;
+    // max-height: 734px;
     background: #003C69;
-    margin-right: 40px;
+    // margin-right: 40px;
     padding-left: 80px;
     padding-top: 64px;
     padding-bottom: 174px;
-
+    border-radius: 4px;
+    // @media only screen and (max-width: 1440px){
+    //     max-width: 1000px;
+    // }
+    // @media only screen and (max-width: 1600px){
+    //     max-width: 960px;
+    // }
+    // @media only screen and (min-width: 1920px){
+    // max-width: 1400px;
+    // }
   
 }
 .content-container:hover{
    
         border-radius: 16px;
+        transition: all 0.5s ease-in-out;
         transform: translatey(-10px);
     
 }
@@ -38,15 +52,21 @@
 .line1{
     color: #FF9B00;
     max-width: 790px;
-    margin: 0;
-    height: 320px;
-    margin: 0;
+    margin: 0px;
+    margin-bottom: 70px;
+    font-weight: 600;
+    font-size: 65px;
 }
 .line2{
     color: #FF9B00;
+    font-weight: 600;
+    font-size: 65px;
+   
 }
 .span-content{
+   
     font-weight: 400;
+    font-size: 65px;
 }
 h3{
     color: $primary-color;

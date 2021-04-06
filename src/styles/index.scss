@@ -16,16 +16,17 @@ html, body{
 body{
     font-size: 22px;
     line-height: 32px;
-    background-color: #fff;
+    background-color: #fff !important;
     position: relative;
 }
 
 p{
     font-weight: 400;
 }
-h1,h2,h3,h4,h5{
+h1,h2,h4,h5{
     font-weight: 800;
 }
+
 h6{
     font-weight: 400;
     color: $primary-color;
@@ -45,15 +46,18 @@ h2{
     margin: 0;
 }
 h3{
-    font-size: 40px;
+    font-size: 30px;
     line-height: 48px;
     margin: 0;
+    padding-left: 80px;
+    font-weight: 600;
     
 }
 h4{
     font-size: 32px;
     line-height: 35.2px;
     margin: 0;
+    font-weight: 600;
 }
 h5{
     margin:0;
